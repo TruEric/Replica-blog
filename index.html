@@ -49,14 +49,14 @@
             <input id="is-featured" checked="true" type="checkbox" class="form-control" name="featured">
           </div>
           <div class="form-group">
-            <label for="">Categoria:</label>
+            <label for="">Categoría:</label>
             <select class="custom-select" name="category">
-              <option selected>Categoria del post</option>
-              <option value="1">Dev</option>
-              <option value="2">Gaming</option>
-              <option value="3">Music</option>
-              <option value="2">Art</option>
-              <option value="3">Books</option>
+              <option selected>Open this select menu</option>
+              <option value="Dev">Dev</option>
+              <option value="Gaming">Gaming</option>
+              <option value="Music">Music</option>
+              <option value="Art">Art</option>
+              <option value="Books">Books</option>
             </select>
           </div>
         </form>
@@ -81,12 +81,12 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <ul class="list-group list-group-horizontal my-3 d-flex justify-content-end">
-            <li class="list-group-item">Dev</li>
-            <li class="list-group-item">Gaming</li>
-            <li class="list-group-item">Music</li>
-            <li class="list-group-item">Art</li>
-            <li class="list-group-item">Books</li>
+          <ul class="list-group list-group-horizontal my-3 d-flex justify-content-end filter-list">
+            <li class="list-group-item" data-filter-criteria="category" data-filter-value="Dev">Dev</li>
+            <li class="list-group-item" data-filter-criteria="category" data-filter-value="Gaming">Gaming</li>
+            <li class="list-group-item" data-filter-criteria="category" data-filter-value="Music">Music</li>
+            <li class="list-group-item" data-filter-criteria="category" data-filter-value="Art">Art</li>
+            <li class="list-group-item" data-filter-criteria="category" data-filter-value="Books">Books</li>
           </ul>
         </div>
       </div>
